@@ -5,56 +5,62 @@ const weatherForecastData = [
       "night": -3,
       "day": 2
     },
-    "cloudiness": "Ясно",
+    "isClear": true,
     "wind": {
       "direction": "Юго-Восточный",
       "strength": 1
-    },
-    "snow": false,
-    "rain": false
+    }
   },
   {
-    "data": "Jun 9, 2018",
+    "data": "Jan 9, 2018",
     "temperature": {
       "night": 0,
       "day": 4
     },
-    "cloudiness": "Облачно",
+    "isClear": false,
+    "cloudiness": {
+      "isSnow": false,
+      "isRain": true
+    },
     "wind": {
       "direction": "Западный",
       "strength": 1
-    },
-    "snow": false,
-    "rain": true
+    }
   },
   {
-    "date": "Jun 10, 2018",
+    "date": "Jan 10, 2018",
     "temperature": {
       "night": 0,
       "day": 1
     },
-    "cloudiness": "Облачно",
+    "isClear": false,
+    "cloudiness": {
+      "isSnow": true,
+      "isRain": true
+    },
     "wind": {
       "direction": "Западный",
       "strength": 1
-    },
-    "snow": true,
-    "rain": true
+    }
   },
   {
-    "date": "Jun 11, 2018",
+    "date": "Jan 11, 2018",
     "temperature": {
       "night": 0,
       "day": 1
     },
-    "cloudiness": "Ясно",
+    "isClear": false,
+    "cloudiness": {
+      "isSnow": false,
+      "isRain": false
+    },
     "wind": {
       "direction": "Западный",
       "strength": 1
-    },
-    "snow": true,
-    "rain": true
+    }
   }
 ];
+
+// TODO: добавить варик для просто снег
 
 export default weatherForecastData;
