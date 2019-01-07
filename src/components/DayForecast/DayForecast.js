@@ -1,9 +1,9 @@
 import './style.css';
-import Composite from "../Composite";
+import Component from './../Component';
 import {convertDateToVerbose, convertDateToDayOfWeek} from "../../utils/date-utils";
 import {getIconByForecast, getDescriptionByForecast} from "../../utils/weather-utils";
 
-export default class DayForecast extends Composite {
+export default class DayForecast extends Component {
   constructor (data) {
     super(data);
     this.template = `

@@ -9,11 +9,60 @@ body {
     font-family: Calibri;
 }
 
-#main-container {
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 900px;
     height: 400px;
     background-color: #f4f4f4;
+}
+
+.main-container__carousel-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.main-container__carousel-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-container__carousel-shift-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 400px;
+    background-color: #f4f4f4;
+}
+
+.main-container__carousel-shift-btn {
+    width: 40px;
+    height: 40px;
+    border-bottom: 4px solid rgba(195, 195, 195, 0.51);
+    border-left: 4px solid rgba(195, 195, 195, 0.51);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-container__carousel-shift-btn:hover {
+    border-bottom: 4px solid rgb(175, 175, 175);
+    border-left: 4px solid rgb(175, 175, 175);
+}
+
+.main-container__left-shift {
+    transform: rotate(45deg);
+}
+
+.main-container__right-shift {
+    transform: rotate(-135deg);
 }

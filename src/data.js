@@ -30,7 +30,7 @@ const weatherForecastData = [
   {
     "date": "Jan 10, 2018",
     "temperature": {
-      "night": 0,
+      "night": -4,
       "day": 1
     },
     "isClear": false,
@@ -46,8 +46,36 @@ const weatherForecastData = [
   {
     "date": "Jan 11, 2018",
     "temperature": {
+      "night": -2,
+      "day": 2
+    },
+    "isClear": false,
+    "cloudiness": {
+      "isSnow": true,
+      "isRain": false
+    },
+    "wind": {
+      "direction": "Западный",
+      "strength": 1
+    }
+  },
+  {
+    "date": "Jan 12, 2018",
+    "temperature": {
       "night": 0,
       "day": 1
+    },
+    "isClear": true,
+    "wind": {
+      "direction": "Западный",
+      "strength": 1
+    }
+  },
+  {
+    "date": "Jan 13, 2018",
+    "temperature": {
+      "night": -5,
+      "day": 7
     },
     "isClear": false,
     "cloudiness": {
@@ -58,9 +86,35 @@ const weatherForecastData = [
       "direction": "Западный",
       "strength": 1
     }
+  },
+  {
+    "date": "Jan 14, 2018",
+    "temperature": {
+      "night": 2,
+      "day": 9
+    },
+    "isClear": false,
+    "cloudiness": {
+      "isSnow": false,
+      "isRain": false
+    },
+    "wind": {
+      "direction": "Западный",
+      "strength": 1
+    }
+  },
+  {
+    "date": "Jan 15, 2018",
+    "temperature": {
+      "night": -40,
+      "day": 40
+    },
+    "isClear": true,
+    "wind": {
+      "direction": "Западный",
+      "strength": 1
+    }
   }
 ];
-
-// TODO: добавить варик для просто снег
 
 export default weatherForecastData;

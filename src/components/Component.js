@@ -1,22 +1,27 @@
 
 export default class Component {
   constructor(data) {
-    // this.parentComponent = null;
-    this.htmlElement = null;
+    this.domElement = null;
     this.data = data;
     this.template = '';
+    this.isRendered = false;
   }
 
   render () {
+    if (this.isRendered) {
+      return;
+    }
+
     const newElement = document.createElement('div');
     newElement.innerHTML = this.template;
 
-    this.htmlElement = newElement;
+    this.domElement = newElement;
+    this.isRendered = true;
 
     return newElement;
   }
 
-  // setParent (parentComponent) {
-  //   this.parentComponent = parentComponent;
-  // }
+  appendChildComponent (childComponent) {
+    throw new Error('method appendChildComponent must be implemented');
+  }
 }
