@@ -1,6 +1,6 @@
 const weatherForecastData = [
   {
-    "date": "Jan 8, 2018",
+    "date": "1/1/2018",
     "temperature": {
       "night": -3,
       "day": 2
@@ -12,7 +12,7 @@ const weatherForecastData = [
     }
   },
   {
-    "data": "Jan 9, 2018",
+    "date": "1/2/2018",
     "temperature": {
       "night": 0,
       "day": 4
@@ -28,7 +28,7 @@ const weatherForecastData = [
     }
   },
   {
-    "date": "Jan 10, 2018",
+    "date": "1/3/2018",
     "temperature": {
       "night": -4,
       "day": 1
@@ -44,7 +44,7 @@ const weatherForecastData = [
     }
   },
   {
-    "date": "Jan 11, 2018",
+    "date": "1/3/2018",
     "temperature": {
       "night": -2,
       "day": 2
@@ -60,7 +60,7 @@ const weatherForecastData = [
     }
   },
   {
-    "date": "Jan 12, 2018",
+    "date": "1/4/2018",
     "temperature": {
       "night": 0,
       "day": 1
@@ -72,7 +72,7 @@ const weatherForecastData = [
     }
   },
   {
-    "date": "Jan 13, 2018",
+    "date": "1/5/2018",
     "temperature": {
       "night": -5,
       "day": 7
@@ -88,7 +88,7 @@ const weatherForecastData = [
     }
   },
   {
-    "date": "Jan 14, 2018",
+    "date": "1/6/2018",
     "temperature": {
       "night": 2,
       "day": 9
@@ -104,7 +104,7 @@ const weatherForecastData = [
     }
   },
   {
-    "date": "Jan 15, 2018",
+    "date": "1/7/2018",
     "temperature": {
       "night": -40,
       "day": 40

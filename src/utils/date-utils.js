@@ -10,7 +10,7 @@ const daysOfWeek = [
 
 export const convertDateToVerbose = dateMs => {
   const date = new Date(dateMs);
-  return `${date.getDay()} ${months[date.getMonth()]}`;
+  return `${date.getDate()} ${months[date.getMonth()]}`;
 };
 
 export const convertDateToDayOfWeek = dateMs => {

@@ -1,4 +1,3 @@
-
 export default class Component {
   constructor(data) {
     this.domElement = null;
